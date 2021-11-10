@@ -3,8 +3,8 @@ qtde = 0
 
 valor = int(input('Valor: '))
 
-# conceder o valor, SE for menor ou igual ao crédito disponível
-if (valor <= credito):
+# conceder o valor, ENQUANTO for menor ou igual ao crédito disponível
+while (valor <= credito):
     qtde += 1
     credito -= valor
     valor = int(input('Valor: '))

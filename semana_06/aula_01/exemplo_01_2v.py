@@ -2,8 +2,8 @@ qtde = 0
 
 n = int(input('Número: '))
 
-# perguntar outro número, SE n != 0
-if (n != 0):
+# perguntar vários números, ENQUANTO n != 0
+while (n != 0):
     qtde += 1
     n = int(input('Número: '))
 

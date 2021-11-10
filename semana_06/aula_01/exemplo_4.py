@@ -1,6 +1,8 @@
-while(True):
+while(True): # loop infinito
     print('eita')
+
     num = int(input('Número: '))
+
     if (num == 0):
         print('vou parar')
         break
